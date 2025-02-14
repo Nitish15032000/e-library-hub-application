@@ -32,8 +32,7 @@ import soundOfMountain from './images/the-sound-of-the-mountain.jpg';
 import oldManSea from './images/the-old-man-and-the-sea.jpg';
 import devilToPay from './images/the-devil-to-pay-in-the-backlands.jpg';
 import sonsAndLovers from './images/sons-and-lovers.jpg';
-import independent from "images/independent-people.jpg";
-import ulysses from "images/ulysses.jpg";
+import independent from "./images/independent-people.jpg";
 import zorba from './images/zorba-the-greek.jpg';
 import poems from './images/poems-giacomo-leopardi.jpg';
 import notebook from './images/the-golden-notebook.jpg';
@@ -477,18 +476,6 @@ const books = [
       year: 1934,
       genres: ["Icelandic Literature", "Modern Fiction", "Literary Fiction"],
       rating: 4.1
-   },
-   {
-      author: "James Joyce",
-      country: "Irish Free State",
-      imageLink: ulysses,
-      language: "English",
-      link: "https://en.wikipedia.org/wiki/Ulysses_(novel)",
-      pages: 228,
-      title: "Ulysses",
-      year: 1922,
-      genres: ["Modernist", "Classics", "Stream of Consciousness", "Literary Fiction"],
-      rating: 4.7
    },
    {
       author: "Nikos Kazantzakis",
