@@ -52,6 +52,7 @@ import nineteenEightyFour from './images/nineteen-eighty-four.jpg';
 
 const books = [
    {
+      id: 1,
       author: "Dante Alighieri",
       country: "Italy",
       imageLink: divineComedy,
@@ -64,6 +65,7 @@ const books = [
       rating: 4.6
    },
    {
+      id: 2,
       author: "Unknown",
       country: "Sumer and Akkadian Empire",
       imageLink: epicGilgamesh,
@@ -76,6 +78,7 @@ const books = [
       rating: 4.5
    },
    {
+      id: 3,
       author: "Unknown",
       country: "Achaemenid Empire",
       imageLink: bookOfJob,
@@ -88,6 +91,7 @@ const books = [
       rating: 4.2
    },
    {
+      id: 4,
       author: "Unknown",
       country: "India/Iran/Iraq/Egypt/Tajikistan",
       imageLink: oneThousandNights,
@@ -178,6 +182,7 @@ const books = [
       rating: 4.8
    },
    {
+      id: 11,
       author: "Fyodor Dostoevsky",
       country: "Russia",
       imageLink: brothersKaramazov,
@@ -190,6 +195,7 @@ const books = [
       rating: 4.9
    },
    {
+      id: 12,
       author: "George Eliot",
       country: "United Kingdom",
       imageLink: middlemarch,
@@ -202,6 +208,7 @@ const books = [
       rating: 4.7
    },
    {
+      id: 13,
       author: "Ralph Ellison",
       country: "United States",
       imageLink: invisibleMan,
@@ -214,6 +221,7 @@ const books = [
       rating: 4.7,
    },
    {
+      id: 14,
       author: "Euripides",
       country: "Greece",
       imageLink: medea,
@@ -226,6 +234,7 @@ const books = [
       rating: 4.6,
    },
    {
+      id: 15,
       author: "William Faulkner",
       country: "United States",
       imageLink: absalomAbsalom,
@@ -238,6 +247,7 @@ const books = [
       rating: 4.4,
    },
    {
+      id: 16,
       author: "William Faulkner",
       country: "United States",
       imageLink: soundAndFury,
@@ -250,6 +260,7 @@ const books = [
       rating: 4.5,
    },
    {
+      id: 17,
       author: "Gustave Flaubert",
       country: "France",
       imageLink: madameBovary,
@@ -262,6 +273,7 @@ const books = [
       rating: 4.6,
    },
    {
+      id: 18,
       author: "Gustave Flaubert",
       country: "France",
       imageLink: sentimentalEducation,
@@ -274,6 +286,7 @@ const books = [
       rating: 4.3,
    },
    {
+      id: 19,
       author: "Federico García Lorca",
       country: "Spain",
       imageLink: gypsyBallads,
@@ -286,6 +299,7 @@ const books = [
       rating: 4.7,
    },
    {
+      id: 20,
       author: "Gabriel García Márquez",
       country: "Colombia",
       imageLink: oneHundredYears,
@@ -298,6 +312,7 @@ const books = [
       rating: 4.8,
    },
    {
+      id: 21,
       author: "Gabriel García Márquez",
       country: "Colombia",
       imageLink: loveInCholera,
@@ -310,6 +325,7 @@ const books = [
       rating: 4.5,
    },
    {
+      id: 22,
       author: "Johann Wolfgang von Goethe",
       country: "Saxe-Weimar",
       imageLink: faust,
@@ -322,6 +338,7 @@ const books = [
       rating: 4.7,
    },
    {
+      id: 23,
       author: "Nikolai Gogol",
       country: "Russia",
       imageLink: deadSouls,
@@ -334,6 +351,7 @@ const books = [
       rating: 4.4,
    },
    {
+      id: 24,
       author: "Günter Grass",
       country: "Germany",
       imageLink: tinDrum,
@@ -346,6 +364,7 @@ const books = [
       rating: 4.6,
    },
    {
+      id: 25,
       author: "Kālidāsa",
       country: "India",
       imageLink: shakuntala,
@@ -358,6 +377,7 @@ const books = [
       rating: 4.5
    },
    {
+      id: 26,
       author: "Homer",
       country: "Greece",
       imageLink: odyssey,
@@ -370,6 +390,7 @@ const books = [
       rating: 4.8
    },
    {
+      id: 27,
       author: "Homer",
       country: "Greece",
       imageLink: iliad,
@@ -382,6 +403,7 @@ const books = [
       rating: 4.7
    },
    {
+      id: 28,
       author: "Franz Kafka",
       country: "Czechoslovakia",
       imageLink: kafkaStories,
@@ -394,6 +416,7 @@ const books = [
       rating: 4.3
    },
    {
+      id: 29,
       author: "Franz Kafka",
       country: "Czechoslovakia",
       imageLink: kafkaTrial,
@@ -406,6 +429,7 @@ const books = [
       rating: 4.6
    },
    {
+      id: 30,
       author: "Franz Kafka",
       country: "Czechoslovakia",
       imageLink: kafkaCastle,
@@ -418,6 +442,7 @@ const books = [
       rating: 4.4
    },
    {
+      id: 31,
       author: "Yasunari Kawabata",
       country: "Japan",
       imageLink: soundOfMountain,
@@ -430,6 +455,7 @@ const books = [
       rating: 4.2
    },
    {
+      id: 32,
       author: "Ernest Hemingway",
       country: "United States",
       imageLink: oldManSea,
@@ -442,6 +468,7 @@ const books = [
       rating: 4.8
    },
    {
+      id: 33,
       author: "João Guimarães Rosa",
       country: "Brazil",
       imageLink: devilToPay,
@@ -453,7 +480,8 @@ const books = [
       genres: ["Magical Realism", "Brazilian Literature", "Fiction", "Adventure"],
       rating: 4.3
    },
-   {
+   {  
+      id: 34,
       author: "D. H. Lawrence",
       country: "United Kingdom",
       imageLink: sonsAndLovers,
@@ -465,7 +493,8 @@ const books = [
       genres: ["Modern Fiction", "Psychological Fiction", "Family Drama", "Literary Fiction"],
       rating: 4.5
    },
-   {
+   {  
+      id: 35,
       author: "Halldór Laxness",
       country: "Iceland",
       imageLink: independent,
@@ -478,6 +507,7 @@ const books = [
       rating: 4.1
    },
    {
+      id: 36,
       author: "Nikos Kazantzakis",
       country: "Greece",
       imageLink: zorba,
@@ -490,6 +520,7 @@ const books = [
       rating: 4.4
    },
    {
+      id: 37,
       author: "Giacomo Leopardi",
       country: "Italy",
       imageLink: poems,
@@ -502,6 +533,7 @@ const books = [
       rating: 4.2
    },
    {
+      id: 38,
       author: "Doris Lessing",
       country: "United Kingdom",
       imageLink: notebook,
@@ -514,6 +546,7 @@ const books = [
       rating: 4.4
    },
    {
+      id: 39,
       author: "Astrid Lindgren",
       country: "Sweden",
       imageLink: longstocking,
@@ -526,6 +559,7 @@ const books = [
       rating: 4.5
    },
    {
+      id: 40,
       author: "Lu Xun",
       country: "China",
       imageLink: madman,
@@ -538,6 +572,7 @@ const books = [
       rating: 4.3
    },
    {
+      id: 41,
       author: "Naguib Mahfouz",
       country: "Egypt",
       imageLink: childrenGebelawi,
@@ -550,6 +585,7 @@ const books = [
       rating: 4.1
    },
    {
+      id: 42,
       author: "Thomas Mann",
       country: "Germany",
       imageLink: buddenbrooks,
@@ -562,6 +598,7 @@ const books = [
       rating: 4.6
    },
    {
+      id: 43,
       author: "Thomas Mann",
       country: "Germany",
       imageLink: magicMountain,
@@ -574,6 +611,7 @@ const books = [
       rating: 4.7
    },
    {
+      id: 44,
       author: "Herman Melville",
       country: "United States",
       imageLink: mobyDick,
@@ -586,6 +624,7 @@ const books = [
       rating: 4.8
    },
    {
+      id: 45,
       author: "Michel de Montaigne",
       country: "France",
       imageLink: essais,
@@ -598,18 +637,20 @@ const books = [
       rating: 4.5
    },
    {
+      id: 46,
       author: "Elsa Morante",
       country: "Italy",
       imageLink: history,
       language: "Italian",
       link: "https://en.wikipedia.org/wiki/History_(novel)\n",
-      pages: 600,
+      pages: 611,
       title: "History",
       year: 1974,
       genres: ["Historical Fiction", "Italian Literature", "Family Drama"],
       rating: 4.2
    },
    {
+      id: 47,
       author: "Toni Morrison",
       country: "United States",
       imageLink: beloved,
@@ -622,6 +663,7 @@ const books = [
       rating: 4.9
    },
    {
+      id: 48,
       author: "Murasaki Shikibu",
       country: "Japan",
       imageLink: genji,
@@ -634,6 +676,7 @@ const books = [
       rating: 4.4
    },
    {
+      id: 49,
       author: "Robert Musil",
       country: "Austria",
       imageLink: manWithoutQualities,
@@ -646,6 +689,7 @@ const books = [
       rating: 4.3
    },
    {
+      id: 50,
       author: "Vladimir Nabokov",
       country: "Russia/United States",
       imageLink: lolita,
@@ -658,6 +702,7 @@ const books = [
       rating: 4.7
    },
    {
+      id:51,
       author: "George Orwell",
       country: "United Kingdom",
       imageLink: nineteenEightyFour,

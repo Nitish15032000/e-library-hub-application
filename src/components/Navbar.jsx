@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link to="/browse" className="hover:underline">
           Browse Books
         </Link>
-        <Link to="/add" className="hover:underline">
+        <Link to="/addbook" className="hover:underline">
           Add Book
         </Link>
       </div>
@@ -21,7 +21,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// Here, we have created a simple Navbar component that contains a navigation bar with three links: Home, Browse Books, and Add Book.
-// 4. Create the Home Component
-// Next, we will create the Home component. This component will display a welcome message and a brief description of the application.
