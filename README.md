@@ -9,13 +9,11 @@ A fully functional **Online Library System** built with **React**, **Vite**, **T
 
 ## 🔥 **Features**
 - 🏠 **Home Page:**  
-  - Welcome message with book categories.  
+  - Welcome message.  
   - List of popular books with links to details.  
   - Navigation bar with links to `Home`, `Browse Books`, and `Add Book`.  
 
-- 🔍 **Browse Books Page:**  
-  - Display books filtered by category.  
-  - Dynamic routing (`/books/:category`).  
+- 🔍 **Browse Books Page:**   
   - Search bar to filter books by title or author.  
 
 - 📖 **Book Details Page:**  
